@@ -1,0 +1,147 @@
+.fil-actu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .post {
+        
+        margin: 10px;
+        width: 50%;
+        border: 1px solid rgba(146, 146, 146, 0.185);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 500ms ease;
+        background-color: $color-3;
+        color: white;
+
+        &:hover {
+            transition: all 500ms ease;
+            box-shadow: 3px 2px 10px $color-1;
+            scale: 1.001;
+
+            .name {
+                text-shadow: 1px 1px 2px $color-1;
+            }
+
+            .interact {
+                max-height:1000px;
+                transition: all 500ms ease-in;
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                align-content: center;
+
+            }
+        }
+
+        .post-content {
+            width: 100%;
+
+            .post-pseudo {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 1.3em;
+
+                .name {
+                    text-decoration: underline;
+                    font-size: 1.1em;
+                }
+            }
+
+            .post-text {
+                display: flex;
+                flex-direction: column;
+
+                .post-msg {
+                    padding: 10px;
+                }
+
+                .post-img {
+                    height: 500px;
+                    object-fit: cover;
+                    border-top: 2px solid black;
+                    border-radius: 25px 25px 0px 0px;
+                }
+            }
+        }
+
+        .likes {
+            width: 100%;
+
+            &:hover {
+                i{
+                    scale: 1.5;
+                }
+                .fa-thumbs-down {
+                    color: $color-3;
+                }
+                .fa-thumbs-up {
+                    color: rgb(11, 252, 11);
+                }
+            }
+
+            .like {
+                width: 100%;
+                border: 0.5px solid $color-1;
+                border-radius: 0px 0px 25px 25px;
+
+            }
+
+            .dislike {
+                width: 100%;
+                border: 0.5px solid $color-1;
+                border-radius: 0px 0px 25px 25px;
+            }
+        }
+
+        .interact {
+            overflow:hidden;
+            max-height:0;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            align-content: center;
+            transition: all 500ms ease-out;
+
+            .interact-form {
+                width: 40%;
+
+                .form-label {
+                    text-decoration: underline;
+                }
+
+                #form-update {
+                    width: 150px;
+                    border: 1px solid $color-2;
+                    padding: 4px;
+                }
+
+                .update-img {
+                    text-decoration: underline;
+                }
+
+                #file-update {
+                    width: 300px;
+                    border: 1px solid $color-2;
+                    padding: 4px;
+                }
+
+                .interact-modify {
+                    border-radius: 30px;
+                }
+            }
+
+            .interact-delete {
+                height: 50px;
+                border-radius: 100%;
+            }
+        }
+    }
+}
