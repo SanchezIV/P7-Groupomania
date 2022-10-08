@@ -24,17 +24,6 @@
             .name {
                 text-shadow: 1px 1px 2px $color-1;
             }
-
-            .interact {
-                max-height:1000px;
-                transition: all 500ms ease-in;
-                display: flex;
-                width: 100%;
-                align-items: center;
-                justify-content: space-between;
-                align-content: center;
-
-            }
         }
 
         .post-content {
@@ -101,14 +90,12 @@
         }
 
         .interact {
-            overflow:hidden;
-            max-height:0;
-            display: flex;
-            width: 100%;
-            align-items: center;
-            justify-content: space-between;
-            align-content: center;
-            transition: all 500ms ease-out;
+                  max-height:1000px;
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                align-content: center;
 
             .interact-form {
                 width: 40%;
