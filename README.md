@@ -34,6 +34,6 @@ env_exemple :
 
 l'URL de la base de donnée : DB_URL="clusterpiiquante.qkic6te.mongodb.net/exo?retryWrites=true&w=majority"
 
-Le Mot de passe de l'utilisateur de la base de donnée : DB_PASSWORD="devweb"
+Le Mot de passe de l'utilisateur de la base de donnée : DB_PASSWORD="exemple"
 
-Le nom de l'utilisateur de la base de donnée :  DB_USER="CptSanchez"
+Le nom de l'utilisateur de la base de donnée :  DB_USER="exemple"
