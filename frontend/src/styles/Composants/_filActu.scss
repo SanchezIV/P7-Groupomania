@@ -25,7 +25,9 @@
                 text-shadow: 1px 1px 2px $color-1;
             }
         }
-
+        &:focus {
+            border : 1px solid blue
+        }
         .post-content {
             width: 100%;
 
@@ -79,6 +81,9 @@
                 width: 100%;
                 border: 0.5px solid $color-1;
                 border-radius: 0px 0px 25px 25px;
+                &:focus {
+                    border : 1px solid blue
+                }
 
             }
 
@@ -86,6 +91,9 @@
                 width: 100%;
                 border: 0.5px solid $color-1;
                 border-radius: 0px 0px 25px 25px;
+                &:focus {
+                    border : 2px solid blue
+                }
             }
         }
 
@@ -108,6 +116,9 @@
                     width: 150px;
                     border: 1px solid $color-2;
                     padding: 4px;
+                    &:focus {
+                        border : 2px solid blue
+                    }
                 }
 
                 .update-img {
@@ -118,16 +129,25 @@
                     width: 300px;
                     border: 1px solid $color-2;
                     padding: 4px;
+                    &:focus {
+                        border : 2px solid blue
+                    }
                 }
 
                 .interact-modify {
                     border-radius: 30px;
+                    &:focus {
+                        border : 2px solid blue
+                    }
                 }
             }
 
             .interact-delete {
                 height: 50px;
                 border-radius: 100%;
+                &:focus {
+                        border : 2px solid blue
+                    }
             }
         }
     }
