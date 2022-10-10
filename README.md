@@ -30,7 +30,7 @@ password : MOTdepasse95
 
 Base de donnée : 
 
-env_exemple : (créez/ utiliser votre identifiant et mot de passe mongoDb)
+env_exemple : (créez/ utilisez vos identifiant et mot de passe mongoDb à  la place des "exemple")
 
 l'URL de la base de donnée : DB_URL="clusterpiiquante.qkic6te.mongodb.net/exo?retryWrites=true&w=majority"
 
